@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right bottom , #81dbb1, #2f5543  );
+}
+
+
+.container{
+    background-color: white;
+    box-shadow: 0 0 50px  rgba(19, 19, 19, 0.37);
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+h1{
+    color: #64b18d;
+    margin-bottom: 1rem;
+
+}
+
+.score-container{
+    display: flex;
+    justify-content: center;
+    margin: 1.5rem 0;
+}
+
+.score{
+    border: 2px solid #81dbb1;
+    padding: 1rem 5rem;
+    border-radius: 10px;
+}
+
+.score span{
+    font-size: 2rem;
+    color: #81dbb1;
+    margin: 0 10px;
+}
+
+.choices{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.choices button{
+    width: 20%;
+    padding: 1rem 0 ;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #81dbb1;
+    margin-bottom: 2rem;
+}
+
+.choices button i{
+    color: white;
+    font-size: 2rem;
+    transition: color 100ms ease;
+}
+
+.choices button:hover i{
+    color: #2f5543;
+}
+
+
+.choices button:active i{
+    color: #64b18d;
+}
+
+
+h2{
+    color: #81dbb1;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.challenge{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+h3 span{
+    margin: 10px;
+    text-transform: uppercase;
+    border-bottom: 1px solid;
+}
+
+
+#restart{
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: #81dbb1;
+    padding: 0.5rem 2rem;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 2rem;
+}
+
+#restart:active{
+    background-color: #64b18d;
+}
